@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CHemistry</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  </head>
+  <body>
+    <html>
+<head>
+<style>
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+</style>
+</head>
+<body>
+
+<h1>Welcome to Litmus and Acid Reaction</h1>
+<p>Click to complete reaction.</p>
+
+</body>
+</html>
+    <div class="heart-btn">
+      <div class="content">
+                <span class="text">Acid</span>
+        <span class="numb"></span>
+      </div>
+    </div>
+
+    <script>
+      $(document).ready(function(){
+        $('.content').click(function(){
+          $('.content').toggleClass("heart-active")
+          $('.text').toggleClass("heart-active")
+          $('.numb').toggleClass("heart-active")
+          $('.heart').toggleClass("heart-active")
+        });
+      });
+    </script>
+
+  </body>
+</html>
